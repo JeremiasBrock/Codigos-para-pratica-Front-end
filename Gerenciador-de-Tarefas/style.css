@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 20px 20px 0px 20px;
+}
+
+header {
+  text-align: center;
+}
+
+.div-formulario {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 30px 20px 22px 20px;
+  border-radius: 30px;
+  background-color: rgb(240, 240, 240);
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0px 10px 20px 2px lightgray;
+}
+
+.div-formulario input, textarea, select{
+  padding: 7px;
+  border-radius: 10px;
+  border: 2px solid lightgray;
+  margin: 5px;
+  width: fit-content;
+  font-family: Inter;
+  box-shadow: 0px 5px 10px 1px lightgray;
+}
+
+input:focus, input:active, textarea:focus, textarea:active, select:focus, select:active {
+  outline: solid darkgray;
+}
+
+.remover {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: fit-content;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.adicionar {
+  border: 3px solid green;
+  color: white;
+  background-color: rgb(0, 211, 0);
+}
+
+.button {
+  font-weight: 600;
+  padding: 20px;
+  cursor: pointer
+}
+
+.button:hover {
+  background-color: #0056b3;  
+  transform: scale(1.05); 
+  transition: all 0.2s 
+}
+
+.button:active {
+  background-color: #003d80; 
+}
